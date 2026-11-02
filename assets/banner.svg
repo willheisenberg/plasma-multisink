@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="360" viewBox="0 0 1280 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#1c2340"/>
+    </linearGradient>
+    <linearGradient id="flowA" gradientUnits="userSpaceOnUse" x1="810" y1="180" x2="1090" y2="95">
+      <stop offset="0" stop-color="#e8edf7"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="flowB" gradientUnits="userSpaceOnUse" x1="810" y1="180" x2="1090" y2="265">
+      <stop offset="0" stop-color="#e8edf7"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+    <g id="headphones" fill="none" stroke-linecap="round">
+      <path d="M-30 8 V0 A30 30 0 0 1 30 0 V8" stroke-width="7"/>
+      <rect x="-40" y="4" width="17" height="32" rx="7" fill="currentColor" stroke="none"/>
+      <rect x="23" y="4" width="17" height="32" rx="7" fill="currentColor" stroke="none"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <g font-family="Noto Sans, sans-serif" fill="#f4f6fb">
+    <text x="72" y="150" font-size="68" font-weight="700" letter-spacing="-1">plasma-multisink</text>
+    <text x="74" y="208" font-size="31" fill="#cdd5e6">Ein Film. Zwei Kopfhörer. Zwei Sprachen.</text>
+    <text x="74" y="256" font-size="22" fill="#8f9ab3">Lautstärkeregelung für KDE Plasma mit mehreren</text>
+    <text x="74" y="287" font-size="22" fill="#8f9ab3">Ausgabegeräten pro Anwendung</text>
+  </g>
+
+  <path d="M810 180 C 930 180, 960 95, 1072 95" fill="none" stroke="url(#flowA)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M810 180 C 930 180, 960 265, 1072 265" fill="none" stroke="url(#flowB)" stroke-width="7" stroke-linecap="round"/>
+
+  <circle cx="800" cy="180" r="50" fill="#e8edf7"/>
+  <path d="M784 152 L826 180 L784 208 Z" fill="#1c2340"/>
+
+  <use xlink:href="#headphones" x="1136" y="84" color="#38bdf8" stroke="#38bdf8"/>
+  <use xlink:href="#headphones" x="1136" y="254" color="#fb923c" stroke="#fb923c"/>
+  <g font-family="Noto Sans, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+    <text x="1136" y="150" fill="#38bdf8">DE</text>
+    <text x="1136" y="320" fill="#fb923c">EN</text>
+  </g>
+</svg>

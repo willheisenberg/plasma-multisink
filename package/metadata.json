@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Category": "Multimedia",
+        "Description": "Lautstärkeregelung von KDE, zusätzlich mit mehreren Ausgabegeräten pro Anwendung und eigenen VLC-Tonspuren",
+        "Icon": "audio-volume-high",
+        "Id": "org.local.multisink",
+        "License": "GPL-3.0-only",
+        "Name": "Audio-Lautstärke (Multi-Sink)",
+        "Version": "0.1"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationAreaCategory": "Hardware"
+}
